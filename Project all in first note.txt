@@ -13,14 +13,15 @@ vlan number 30
 name of vlan Accounting
 
 the goal here is to make sure every lan can talk to it significant other in all 
-of the three switches, even thou there are in a defferent floor in an organisiation
-here you can see that the switches have three divices each connected
-to it. which are also connected to the vlans 
-you will see i named every pc acconding to the vlan is connected for example a pc is connected 
-to vlan 10
+of the three switches, even though there are in a defferent floor(we assign each switch in a imaginary
+floor) in an organisiation.
+Here you can see that the switches have three divices each connected
+to it. which in every devices is connected to one of the vlan you will see i named every pc acconding
+to the vlan is connected to for example a pc is connected to 
+VLAN 10
 the pc will be name pc 10.1 the 10 represent the number of vlan it's connected to while the .1
-represent the first switch in the network.
-
+represent the switch is connected to 1,2,3 an so on the third .1 represent the number of pc connected to the seme vlan in
+the switch, it might be morethan one or two.
 you will notice that S1 (switch one) has four devices with two pc connected to one vlan marked in red
 i will be using the color code for better understanding of the topology the
 RED : stands for vlan 10
